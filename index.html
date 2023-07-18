@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Mugiwaras</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&family=Fira+Sans:wght@300;500;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+    <img class="logo" src="./src/imagens/logo.png" alt="Logo one piece" srcset=""></header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="luffy" data-name="Monkey.D Luffy" data-description="Luffy é o capitão dos Piratas do Chapéu de Palha. O jovem sonha em se tornar o Rei dos Piratas, título que ninguém ocupa desde a execução de Gol D.Roger">
+                    <img src="./src/imagens/card-Monkey-D-Luffy.jpg" alt="personagem Luffy">
+                </li>
+                <li class="personagem" id="zoro"  data-name="Roronoa Zoro" data-description="Roronoa Zoro é um dos membros da tripulação dos Piratas do Chapéu de Palha, Seu sonho é cumprir uma promessa que fez à uma amiga de infância, Kuina, de que se tornaria o maior espadachim do mundo.">
+                    <img src="./src/imagens/card-Roronoa-Zoro.jpg" alt="personagem Zoro">
+                </li>
+                <li class="personagem" id="sanji" data-name="Vismoke Sanji" data-description="Vinsmoke Sanji é o cozinheiro dos Piratas do Chapéu de Palha, Seu sonho é encontrar o paraíso dos chefes, All Blue, sendo esse o lugar onde o East Blue, o West Blue, o North Blue e o South Blue se encontram, juntamente com sua vida selvagem. ">
+                    <img src="./src/imagens/card-Vinsmoke-Sanji.jpg" alt="personagem Sanji">
+                </li>
+                <li class="personagem" id="brook" data-name="Brook" data-description="Brook é o Músico dos Piratas do Chapéu de Palha. Seu sonho é encontrar seu velho companheiro Laboon uma grande baleia q vive na montanha reversam sua espera e de seus companheiros.">
+                    <img src="./src/imagens/card-Soul-King.jpg" alt="personagem Brook">
+                </li>
+                <li class="personagem" id="franky" data-name="Franky" data-description="Franky é o carpinteiro dos Piratas do Chapéu de Palha. seu sonho de criar e dirigir um navio capaz de dar a volta ao mundo, o Thousand Sunny.">
+                    <img src="./src/imagens/card-Franky.jpg" alt="personagem Franky">
+                </li>
+                <li class="personagem" id="usopp" data-name="God Usopp" data-description="God Usopp é o Atirador dos Piratas do Chapéu de Palha.Apesar de sua covardia normal, Usopp sonha em se tornar um corajoso guerreiro do mar como seu pai, e vive todos os dias em busca de viver à altura deste sonho.,">
+                    <img src="./src/imagens/card-God-Usopp.jpg" alt="personagem Usopp">
+                </li>
+                <li class="personagem" id="jinbe" data-name="Jinbe" data-description="Cavaleiro do Mar Jinbe é o timoneiro dos Piratas do Chapéu de Palha.inbe é um homem-peixe sendo um tubarão-baleia e um poderoso mestre do karatê Homem-Peixe. Seu sonho é realizar o desejo moribundo de seu ex-capitão Fisher Tiger de coexistência e igualdade entre humanos e homens-peixe.">
+                    <img src="./src/imagens/card-Jinbe.jpg" alt="personagem Jinbe">
+                </li>
+                <li class="personagem" id="chopper" data-name="Tony Tony Chopper" data-description="Tony Tony Chopper é uma rena. Ele é o médico da tripulação dos Piratas do Chapéu de Palha. Seu sonho é se tornar um médico que cura todos os males e que pode tratar qualquer doença.">
+                    <img src="./src/imagens/card-Chopper.jpg" alt="personagem Chopper">
+                </li>
+                <li class="personagem" id="nami" data-name="Nami" data-description="A Gata Ladra Nami é a navegadora dos Piratas do Chapéu de Palha. Seu sonho é fazer um mapa do mundo inteiro.">
+                    <img src="./src/imagens/card-Nami.jpg" alt="personagem Nami">
+                </li>
+                <li class="personagem" id="robin" data-name="Nico Robin" data-description="Nico Robin, também conhecida como Criança Demônio e Luz da Revolução, é a arqueóloga dos Piratas do Chapéu de Palha. ela é atualmente a única pessoa no mundo com a capacidade de ler e decifrar Poneglyphs, uma habilidade que é considerada proibida e que ameaça o Governo Mundial.">
+                    <img src="./src/imagens/card-Nico-Robin.jpg" alt="personagem Robin">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-Monkey-D-Luffy.png" alt="personagem selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Luffy</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Luffy é o capitão dos Piratas do Chapéu de
+                    Palha. Quando criança, ele comeu uma Gomu Gomu no Mi, uma fruta que lhe deu o poder do
+                    homem-borracha em troca de sua habilidade de nadar. O jovem sonha em se
+                    tornar o Rei dos Piratas, título que ninguém ocupa desde a execução de Gol D.Roger</p>
+            </div>
+        </section>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
